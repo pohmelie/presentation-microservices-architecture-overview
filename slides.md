@@ -14,7 +14,7 @@
 
 #
     !bash
-        git clone --recursive https://project
+        git clone --recursive git@github.com:user/project.git
         cd project
 
 ---
@@ -25,7 +25,7 @@
 
 #
     !bash
-        git clone --recursive https://project
+        git clone --recursive git@github.com:user/project.git
         cd project
         pip install -e ./[dev]
 
@@ -37,7 +37,7 @@
 
 #
     !bash
-        git clone --recursive https://project
+        git clone --recursive git@github.com:user/project.git
         cd project
         pip install -e ./[dev]
 
@@ -51,7 +51,7 @@
 
 #
     !bash
-        git clone --recursive https://project
+        git clone --recursive git@github.com:user/project.git
         cd project
         pip install -e ./[dev]
 
@@ -66,7 +66,7 @@
 
 #
     !bash
-        git clone --recursive https://project
+        git clone --recursive git@github.com:user/project.git
         cd project
         pip install -e ./[dev]
 
@@ -82,7 +82,7 @@
 
 #
     !bash
-        git clone --recursive https://project
+        git clone --recursive git@github.com:user/project.git
         cd project
         pip install -e ./[dev]
 
@@ -99,7 +99,7 @@
 
 #
     !bash
-        git clone --recursive https://project
+        git clone --recursive git@github.com:user/project.git
         cd project
         pip install -e ./[dev]
         pytest

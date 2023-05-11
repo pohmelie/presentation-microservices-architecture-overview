@@ -393,12 +393,11 @@ Configuration resolved in runtime
 
 #
     !python
+        # project/ __main__.py
         from cock import build_entrypoint, Config, Option
-
 
         def main(config: Config):
             print(config)
-
 
         options = [
             Option("a_b_c", default="foo"),
@@ -424,7 +423,7 @@ Configuration resolved in runtime
 
 #
     !bash
-        $ python project.py --help
+        $ python -m project --help
         Usage: project [OPTIONS] [CONFIGURATION_FILE]
 
         Options:
@@ -441,13 +440,13 @@ Configuration resolved in runtime
 
 #
     !python
+        # project/ __main__.py
         from cock import build_entrypoint, Config, Option
         from project.db import db_options
         from project.web_server import web_server_options
 
         def main(config: Config):
             print(config)
-
 
         options = [
             *db_options,

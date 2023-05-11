@@ -351,19 +351,12 @@ Configuration resolved in runtime
 
 ---
 
-# Import/Run time prelude (summary)
+# Import/Run time prelude
 
----
+Configuration resolved in runtime
 
-# Import/Run time prelude (summary)
-
-- Do not use import time configuration
-
----
-
-# Import/Run time prelude (summary)
-
-- Do not use import time configuration
+- Simpler mocking
+- Another project can use your project as library
 - Import time constants are ok, but should be moved to configuration some day
 
 ---

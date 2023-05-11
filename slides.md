@@ -426,6 +426,23 @@ Configuration resolved in runtime
     - cock
 
 #
+    !bash
+        $ python project.py --help
+        Usage: project [OPTIONS] [CONFIGURATION_FILE]
+
+        Options:
+        --a-b-c TEXT  [default: foo]
+        --b-c-d TEXT  [default: bar]
+        --help        Show this message and exit.
+---
+
+# Microservices architecture overview
+
+- Easy clone and go
+- Configuration ways
+    - cock
+
+#
     !python
         from cock import build_entrypoint, Config, Option
         from project.db import db_options

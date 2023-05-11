@@ -264,6 +264,7 @@
 #
 
     !python
+        # a.py
         x = 1 / 0
 
 ---
@@ -275,6 +276,7 @@
 #
 
     !python
+        # a.py
         x = 1 / 0
 
 `ZeroDivisionError: division by zero`
@@ -296,6 +298,7 @@
 #
 
     !python
+        # a.py
         def foo():
             x = 1 / 0
 
@@ -309,6 +312,7 @@
 #
 
     !python
+        # a.py
         def foo():
             x = 1 / 0
         print(dis(foo))
